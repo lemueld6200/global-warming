@@ -1,21 +1,13 @@
-# global-warming
+Vuejs basic webpack simple starter template
+=================
 
-> This is a global warming application supporting #TeamTrees for my AP CS Pri class.
+This is a simple Vuejs starter using webpack-dev-server with hot reloading. Not mean for production.
 
-## Build Setup
+[https://github.com/vuejs-templates/webpack-simple](https://github.com/vuejs-templates/webpack-simple)
 
-``` bash
-# install dependencies
-npm install
+There is a hidden assets folder on **src/assets** if you want to add content you have to use `wget` on Glich [console](https://glitch.com/edit/console.html)
 
-# serve with hot reload at localhost:8080
-npm run dev
+Glitch support thanks to 
 
-# build for production with minification
-npm run build
+[https://support.glitch.com/t/invalid-host-header-webpack-compiled-successfully/3639)](https://support.glitch.com/t/invalid-host-header-webpack-compiled-successfully/3639)
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
