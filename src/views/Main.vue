@@ -6,14 +6,14 @@
       :open.sync="openSide"
     >
       <v-ons-page>
-<!--         <v-ons-list>
+        <v-ons-list>
           <v-ons-list-item v-for="page in pages"
             tappable modifier="chevron"
             @click="currentPage = page; openSide = false"
           >
             <div class="center">{{ page }}</div>
           </v-ons-list-item>
-        </v-ons-list> -->
+        </v-ons-list>
       </v-ons-page>
     </v-ons-splitter-side>
 
@@ -25,18 +25,25 @@
 </template>
 
 <script>
+import Home from "@/components/Home";
+
 export default {
   name: 'main',
   data() {
     return {
-      currentPage: 'home',
-      pages: ['home'],
+      currentPage: 'Home',
+      pages: ['Home'],
       openSide: false
     };
   },
+  components: {
+    Home
+  },
+  components: {
+    
+  }
 }
 </script>
 
 <style lang="scss">
-  
 </style>
